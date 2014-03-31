@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Game:</b>
+  <%= @high_score.game %>
+</p>
+
+<p>
+  <b>Points:</b>
+  <%= @high_score.points %>
+</p>
+
+
+<%= link_to 'Edit', edit_high_score_path(@high_score) %> |
+<%= link_to 'Back', high_scores_path %>
